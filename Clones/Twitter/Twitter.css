@@ -1,0 +1,117 @@
+
+
+body{
+    background-color: #9c9c9c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 740px;
+    font-family:'Google Sans',arial,sans-serif;
+}
+
+.main{
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+/* .logo{
+    padding-top: 20px;
+} */
+
+.title{
+    width: 300px;
+    height: 72px;
+    font-size: 180%;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.roundbox{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #9c9c9c;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    font-weight: 450;
+}
+
+.roundbox-text{
+    padding: 0px 10px;
+}
+
+.break{
+    width: 300px;
+    height: 5px;
+    display: flex;
+    align-items: center;
+}
+
+hr{
+    height: 0.5px;
+    width: 130px;
+    background-color: #9c9c9c;
+    border: 0.5px solid #9c9c9c;
+}
+
+.or{
+    font-weight: 550;
+    color: rgb(53, 53, 53);
+}
+
+input{
+    width: 280px;
+    height: 50px;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+::placeholder{
+    font-size: 120%;
+}
+
+.btn{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #9c9c9c;
+    border-radius: 20px;
+    font-size: 120%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgot-text{
+    font-weight: 700;
+}
+
+.signup{
+    width: 300px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign{
+    color: blue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
